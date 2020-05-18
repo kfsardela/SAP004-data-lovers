@@ -114,11 +114,14 @@ input {
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 1.1s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: transform 1.1s;
     position: relative;
 }
 
 .card-container:hover .card {
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 }
 
 .pokemonList {
@@ -145,7 +148,7 @@ input {
     height: 100%;
     backface-visibility: hidden;
     border-radius: 10px;
-    background-color: rgba(223, 221, 221, 0.5);
+    background-color: rgba(223, 221, 221, 1);
 }
 
 .front {
@@ -314,12 +317,6 @@ footer {
     }
     #porcentagem-de-tipo-de-pokemon {
         width: auto;
-    }
-    .card-container:hover .card {
-        transform: none;
-    }
-    .card-container:active .card {
-        transform: rotateY(180deg);
     }
     .front,
     .back {
