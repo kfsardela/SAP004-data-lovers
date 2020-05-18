@@ -321,6 +321,10 @@ footer {
     .card-container:active .card {
         transform: rotateY(180deg);
     }
+    .front,
+    .back {
+        background-color: white;
+    }
     /* @media(hover: hover) and (pointer: fine) {
     .card-container:hover .card {
       transform: rotateY(180deg);
