@@ -107,3 +107,10 @@ function searchName() {
     const resultBusca = filterByName(pokemons, "name", nomeDigitado);
     mostrarNaTela(resultBusca);
 }
+const front = document.getElementById("front").addEventListener("click", girarCard)
+
+function girarCard() {
+    front.classList.add("invisivel")
+    const back = document.getElementById("back")
+    back.classList.add("visivel")
+}
