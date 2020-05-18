@@ -38,7 +38,7 @@ function mostrarNaTela(pokemons) {
     document.getElementById("pokemonList").innerHTML = pokemons.map((pokemon) => `
   <div class="card-container">
     <div class="card">
-  <div class="front">
+  <div class="front" id="front">
    <div class="imagem"><img src="${pokemon.img}"></div>
      <div class="nome" class="numero">${pokemon.num} &nbsp;&nbsp;&nbsp;&nbsp;</div>
         <div class="nome">${pokemon.name}</div>
@@ -47,7 +47,7 @@ function mostrarNaTela(pokemons) {
         <div class="quantidade-doce"><hr><img src="imagens/doce.png" class="imagem-card">&nbsp;&nbsp; ${pokemon.candy_count}</div>
         
       </div>
-      <div class="back">
+      <div class="back" id="back">
       <div class="altura"> Altura: ${pokemon.height}</div>
       <div class="largura"> Largura: ${pokemon.weight}</div>
       <div class="chance-aparecer"><hr> Chance de Aparecer <br> ${pokemon.spawn_chance}</div>
