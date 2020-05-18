@@ -318,7 +318,7 @@ footer {
     .card-container:hover .card {
         transform: none;
     }
-    .card-container:focus .card {
+    .card-container:active .card {
         transform: rotateY(180deg);
     }
     /* @media(hover: hover) and (pointer: fine) {
