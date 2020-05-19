@@ -2,7 +2,7 @@
             background-image: url(imagens/fundo_paisagem.jpg);
             background-size: cover;
             background-repeat: no-repeat;
-            background-attachment: scroll;
+            background-attachment: fixed;
             margin: 0;
         }
         
