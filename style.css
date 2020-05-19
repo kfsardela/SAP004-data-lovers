@@ -4,6 +4,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             margin: 0;
+            font-family: 'Barlow Semi Condensed', sans-serif;
         }
         
         @font-face {
@@ -15,6 +16,7 @@
             background-color: rgb(255, 255, 255, 0.7);
             padding: 1px;
             margin: auto;
+            font-family: 'Barlow Semi Condensed', sans-serif;
         }
         
         .item {
@@ -77,6 +79,7 @@
             width: 100%;
             background-color: rgb(188, 229, 234);
             font-size: 18px;
+            font-family: 'Barlow Semi Condensed', sans-serif;
             padding: 4px;
             border-radius: 9px;
         }
