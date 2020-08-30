@@ -22,7 +22,7 @@ Pokefã é uma plataforma contendo informações dos 151 pokemons da região de 
 
 O Projeto foi pensado e desenvolvido para todos os jogadores de Pokemon Go e fãs de Pokemon. Pensando nisso desenvolvemos um site responsivo, o qual é possível ser acessado por vários tipos de dispositivos, como computador, celular, tablet, etc.
 
-### 3. Histórias de usuário
+## 3. Histórias de usuário
 
 A partir da pesquisa feita com usuários, conseguimos identificar as necessidades e tentamos atende-las da melhor forma possível, elaborando as Histórias de Usuário abaixo.
 
